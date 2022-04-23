@@ -15,340 +15,350 @@
 </head>
 
 <body>
-    <!-- navbar start -->
-    <ul id="myNav" class=" nav justify-content-center" style="background-color:#FFC107;">
-        <li class="nav-item">
-            <a class="nav-link text-dark" href="#section1" style="cursor: pointer;font-family:Arial, Helvetica, sans-serif">Home</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link text-dark" href="#section2" style="cursor: pointer;font-family:Arial, Helvetica, sans-serif">chart</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link text-dark" href="#section3" style="cursor: pointer;font-family:Arial, Helvetica, sans-serif">blog</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link text-dark" href="https://tazahmed.netlify.app/" style="cursor: pointer;font-family:Arial, Helvetica, sans-serif;">about</a>
-        </li>
-    </ul>
-    <br><br><br><br>
-    <!-- navbar end -->
-    <!-- alert start -->
-    <div class="position-absolute top-20 start-50 translate-middle">
-        <div class="text-01"><span id="typing-01" style="font-family: SutonnyOMJ;color: red;font-size: 1.20rem;"></span>
+    <div id="Mycontoner">
+        <!-- navbar start -->
+        <ul id="myNav" class=" nav justify-content-center" style="background-color:#FFC107;">
+            <li class="nav-item">
+                <a class="nav-link text-dark" href="#section1"
+                    style="cursor: pointer;font-family:Arial, Helvetica, sans-serif">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-dark" href="#section2"
+                    style="cursor: pointer;font-family:Arial, Helvetica, sans-serif">chart</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-dark" href="#section3"
+                    style="cursor: pointer;font-family:Arial, Helvetica, sans-serif">blog</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-dark" href="https://tazahmed.netlify.app/"
+                    style="cursor: pointer;font-family:Arial, Helvetica, sans-serif;">about</a>
+            </li>
+        </ul>
+        <br><br><br><br>
+
+        <!-- navbar end -->
+        <!-- alert start -->
+        <div class="position-absolute top-20 start-50 translate-middle" id="writingText">
+            <div class="text-01"><span id="typing-01"
+                    style="font-family: SutonnyOMJ;color: red;font-size: 1.20rem;"></span>
+            </div>
+
         </div>
+        <br><br>
+        <!-- alert end -->
+        <!-- section 1 start -->
+        <section class="section1 m-1" id="section1">
+            <div class="area1 border border-warning shadow-lg p-3 mb-5 bg-body rounded">
+                <div class="dateArea d-flex m-3">
+                    <h3 style="font-family: Arial, Helvetica, sans-serif;">Date:</h3>
+                    <span id="date"></span>
+                </div>
+                <div class="fojorArAjan d-flex m-3">
+                    <h3 style="font-family:Arial, Helvetica, sans-serif">Time:</h3>
+                    <span id="time"></span>
+                </div>
+                <div class="shari d-flex m-3">
+                    <h3 style="font-family:SutonnyOMJ">সেহেরীর শেষ সময়:</h3>
+                    <span id="shari"></span>
+                </div>
+                <div class="fojorArAjan d-flex m-3">
+                    <h3 style="font-family:SutonnyOMJ">ফজরের আজান:</h3>
+                    <span id="namaj"></span>
+                </div>
+                <div class="fojorArAjan d-flex m-3">
+                    <h3 style="font-family:SutonnyOMJ">ইফতারের এর সময়:</h3>
+                    <span id="efter"></span>
+                </div>
+            </div>
+        </section>
+        <!-- section 1 end -->
+        <br><br>
+        <!-- section 2 start -->
+        <section class="section2 m-2" id="section2">
+            <table class="table table-bordered">
+                <tr style="font-family:SutonnyOMJ">
+                    <th>রমযান</th>
+                    <th>তারিখ</th>
+                    <th>সেহেরীর শেষ সময়</th>
+                    <th>ফজরের আজান</th>
+                    <th>ইফতারের এর সময়</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>03/04/22</td>
+                    <td>04:36</td>
+                    <td>04:42</td>
+                    <td>06:25</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>04/04/22</td>
+                    <td>04:34</td>
+                    <td>04:40</td>
+                    <td>06:26</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>05/04/22</td>
+                    <td>04:33</td>
+                    <td>04:39</td>
+                    <td>06:27</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>06/04/22</td>
+                    <td>04:32</td>
+                    <td>04:38</td>
+                    <td>06:27</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>07/04/22</td>
+                    <td>04:31</td>
+                    <td>04:37</td>
+                    <td>06:28</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>08/04/22</td>
+                    <td>04:30</td>
+                    <td>04:36</td>
+                    <td>06:28</td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>09/04/22</td>
+                    <td>04:29</td>
+                    <td>04:35</td>
+                    <td>06:28</td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td>10/04/22</td>
+                    <td>04:28</td>
+                    <td>04:34</td>
+                    <td>06:29</td>
+                </tr>
+                <tr>
+                    <td>9</td>
+                    <td>11/04/22</td>
+                    <td>04:27</td>
+                    <td>04:33</td>
+                    <td>06:29</td>
+                </tr>
+                <tr>
+                    <td>10</td>
+                    <td>12/04/22</td>
+                    <td>04:26</td>
+                    <td>04:32</td>
+                    <td>06:29</td>
+                </tr>
+                <tr>
+                    <td>11</td>
+                    <td>13/04/22</td>
+                    <td>04:25</td>
+                    <td>04:31</td>
+                    <td>06:30</td>
+                </tr>
+                <tr>
+                    <td>12</td>
+                    <td>14/04/22</td>
+                    <td>04:24</td>
+                    <td>04:30</td>
+                    <td>06:30</td>
+                </tr>
+                <tr>
+                    <td>13</td>
+                    <td>15/04/22</td>
+                    <td>04:23</td>
+                    <td>04:29</td>
+                    <td>06:30</td>
+                </tr>
+                <tr>
+                    <td>14</td>
+                    <td>16/04/22</td>
+                    <td>04:22</td>
+                    <td>04:28</td>
+                    <td>06:31</td>
+                </tr>
+                <tr>
+                    <td>15</td>
+                    <td>17/04/22</td>
+                    <td>04:21</td>
+                    <td>04:27</td>
+                    <td>06:31</td>
+                </tr>
+                <tr>
+                    <td>16</td>
+                    <td>18/04/22</td>
+                    <td>04:20</td>
+                    <td>04:26</td>
+                    <td>06:32</td>
+                </tr>
+                <tr>
+                    <td>17</td>
+                    <td>19/04/22</td>
+                    <td>04:19</td>
+                    <td>04:25</td>
+                    <td>06:32</td>
+                </tr>
+                <tr>
+                    <td>18</td>
+                    <td>20/04/22</td>
+                    <td>04:18</td>
+                    <td>04:24</td>
+                    <td>06:32</td>
+                </tr>
+                <tr>
+                    <td>19</td>
+                    <td>21/04/22</td>
+                    <td>04:17</td>
+                    <td>04:23</td>
+                    <td>06:33</td>
+                </tr>
+                <tr>
+                    <td>20</td>
+                    <td>22/04/22</td>
+                    <td>04:16</td>
+                    <td>04:22</td>
+                    <td>06:33</td>
+                </tr>
+                <tr>
+                    <td>21</td>
+                    <td>23/04/22</td>
+                    <td>04:15</td>
+                    <td>04:21</td>
+                    <td>06:34</td>
+                </tr>
+                <tr>
+                    <td>22</td>
+                    <td>24/04/22</td>
+                    <td>04:14</td>
+                    <td>04:20</td>
+                    <td>06:34</td>
+                </tr>
+                <tr>
+                    <td>23</td>
+                    <td>25/04/22</td>
+                    <td>04:13</td>
+                    <td>04:19</td>
+                    <td>06:35</td>
+                </tr>
+                <tr>
+                    <td>24</td>
+                    <td>26/04/22</td>
+                    <td>04:12</td>
+                    <td>04:18</td>
+                    <td>06:35</td>
+                </tr>
+                <tr>
+                    <td>25</td>
+                    <td>27/04/22</td>
+                    <td>04:11</td>
+                    <td>04:17</td>
+                    <td>06:36</td>
+                </tr>
+                <tr>
+                    <td>26</td>
+                    <td>28/04/22</td>
+                    <td>04:10</td>
+                    <td>04:16</td>
+                    <td>06:36</td>
+                </tr>
+                <tr>
+                    <td>27</td>
+                    <td>29/04/22</td>
+                    <td>04:09</td>
+                    <td>04:15</td>
+                    <td>06:37</td>
+                </tr>
+                <tr>
+                    <td>28</td>
+                    <td>30/04/22</td>
+                    <td>04:08</td>
+                    <td>04:14</td>
+                    <td>06:37</td>
+                </tr>
+                <tr>
+                    <td>29</td>
+                    <td>01/05/22</td>
+                    <td>04:07</td>
+                    <td>04:13</td>
+                    <td>06:38</td>
+                </tr>
+                <tr>
+                    <td>30</td>
+                    <td>02/05/22</td>
+                    <td>04:06</td>
+                    <td>04:12</td>
+                    <td>06:38</td>
+                </tr>
+            </table>
+        </section>
+
+        <!-- section 2 end -->
+        <!-- section 3 start -->
+        <br><br>
+        <section class="section3 m-1" id="section3">
+            <div class="area1 border border-warning shadow-lg p-3 mb-5 bg-body rounded">
+                <div class="shari d-flex m-3">
+                    <h3 style="font-family:SutonnyOMJ">রোজার নিয়ত:</h3>
+                    <span id="shari"></span>
+                </div>
+                <div class="shari d-flex m-3">
+                    <h3 style="font-family:SutonnyOMJ">উচ্চারণ : ‘নাওয়াইতু আন আছুমা গাদাম মিন শাহরি রমাজানাল
+                        মুবারাকি ফারদাল্লাকা, ইয়া আল্লাহু ফাতাকাব্বাল মিন্নি ইন্নিকা আংতাস সামিউল আলিম।’</h3>
+                    <span id="shari"></span>
+                </div>
+                <br><br>
+                <div class="shari d-flex m-3">
+                    <h3 style="font-family:SutonnyOMJ">অর্থ : হে আল্লাহ! আমি আগামীকাল তোমার পক্ষ থেকে পবিত্র
+                        রমজানের নির্ধারিত ফরজ রোজা রাখার ইচ্ছা পোষণ (নিয়ত) করলাম। অতএব তুমি আমার পক্ষ থেকে (আমার রোজা
+                        তথা
+                        পানাহার থেকে বিরত থাকাকে) কবুল কর, নিশ্চয়ই তুমি সর্বশ্রোতা ও সর্বজ্ঞানী।</h3>
+                    <span id="shari"></span>
+                </div>
+            </div>
+        </section>
+        <!-- section 3 end -->
+        <!-- section 4 start -->
+        <br><br>
+        <section class="section4 m-1 ">
+            <div class="area1 border border-warning shadow-lg p-3 mb-5 bg-body rounded">
+                <div class="shari d-flex m-3">
+                    <h3 style="font-family:SutonnyOMJ">ইফতারের দোয়া:</h3>
+                    <span id="shari"></span>
+                </div>
+                <div class="shari d-flex m-3">
+                    <h3 style="font-family:SutonnyOMJ">উচ্চারণ : আল্লাহুম্মা লাকা ছুমতু ওয়া আলা রিযক্বিকা ওয়া আফতারতু
+                        বিরাহমাতিকা ইয়া আরহামার রাহিমিন।</h3>
+                    <span id="shari"></span>
+                </div>
+                <br><br>
+                <div class="shari d-flex m-3">
+                    <h3 style="font-family:SutonnyOMJ">অর্থ : হে আল্লাহ! আমি তোমারই সন্তুষ্টির জন্য রোজা রেখেছি এবং
+                        তোমারই দেয়া রিযিজের মাধ্যমে ইফতার করেছি।</h3>
+                    <span id="shari"></span>
+                </div>
+            </div>
+        </section>
+        <!-- section 4 end -->
+
+        <!-- footer start -->
+        <footer class="" style="bottom: 100px;">
+            <!-- Copyright -->
+            <div class="text-center p-3" style="background-color: #000;color: #fff;">
+                <!-- Created By Taz | © 2022 All rights reserved. -->
+                <span>Created By <a href="https://tazahmed.netlify.app/" style="color: #FFC107;">Taz</a> | <span
+                        class="far fa-copyright"></span> 2022
+                    All rights reserved.</span </div>
+                <!-- Copyright -->
+        </footer>
+
+        <!-- footer end -->
 
     </div>
-    <br><br>
-    <!-- alert end -->
-    <!-- section 1 start -->
-    <section class="section1 m-1" id="section1">
-        <div class="area1 border border-warning shadow-lg p-3 mb-5 bg-body rounded">
-            <div class="dateArea d-flex m-3">
-                <h3 style="font-family: Arial, Helvetica, sans-serif;">Date:</h3>
-                <span id="date"></span>
-            </div>
-            <div class="fojorArAjan d-flex m-3">
-                <h3 style="font-family:Arial, Helvetica, sans-serif">Time:</h3>
-                <span id="time"></span>
-            </div>
-            <div class="shari d-flex m-3">
-                <h3 style="font-family:SutonnyUniBanglaOMJ">সেহেরীর শেষ সময়:</h3>
-                <span id="shari"></span>
-            </div>
-            <div class="fojorArAjan d-flex m-3">
-                <h3 style="font-family:SutonnyUniBanglaOMJ">ফজরের আজান:</h3>
-                <span id="namaj"></span>
-            </div>
-            <div class="fojorArAjan d-flex m-3">
-                <h3 style="font-family:SutonnyUniBanglaOMJ">ইফতারের এর সময়:</h3>
-                <span id="efter"></span>
-            </div>
-        </div>
-    </section>
-    <!-- section 1 end -->
-    <br><br>
-    <!-- section 2 start -->
-    <section class="section2 m-2" id="section2">
-        <table class="table table-bordered">
-            <tr style="font-family:SutonnyUniBanglaOMJ">
-                <th>রমযান</th>
-                <th>তারিখ</th>
-                <th>সেহেরীর শেষ সময়</th>
-                <th>ফজরের আজান</th>
-                <th>ইফতার</th>
-            </tr>
-            <tr>
-                <td>1</td>
-                <td>03/04/22</td>
-                <td>04:36</td>
-                <td>04:42</td>
-                <td>06:25</td>
-            </tr>
-            <tr>
-                <td>2</td>
-                <td>04/04/22</td>
-                <td>04:34</td>
-                <td>04:40</td>
-                <td>06:26</td>
-            </tr>
-            <tr>
-                <td>3</td>
-                <td>05/04/22</td>
-                <td>04:33</td>
-                <td>04:39</td>
-                <td>06:27</td>
-            </tr>
-            <tr>
-                <td>4</td>
-                <td>06/04/22</td>
-                <td>04:32</td>
-                <td>04:38</td>
-                <td>06:27</td>
-            </tr>
-            <tr>
-                <td>5</td>
-                <td>07/04/22</td>
-                <td>04:31</td>
-                <td>04:37</td>
-                <td>06:28</td>
-            </tr>
-            <tr>
-                <td>6</td>
-                <td>08/04/22</td>
-                <td>04:30</td>
-                <td>04:36</td>
-                <td>06:28</td>
-            </tr>
-            <tr>
-                <td>7</td>
-                <td>09/04/22</td>
-                <td>04:29</td>
-                <td>04:35</td>
-                <td>06:28</td>
-            </tr>
-            <tr>
-                <td>8</td>
-                <td>10/04/22</td>
-                <td>04:28</td>
-                <td>04:34</td>
-                <td>06:29</td>
-            </tr>
-            <tr>
-                <td>9</td>
-                <td>11/04/22</td>
-                <td>04:27</td>
-                <td>04:33</td>
-                <td>06:29</td>
-            </tr>
-            <tr>
-                <td>10</td>
-                <td>12/04/22</td>
-                <td>04:26</td>
-                <td>04:32</td>
-                <td>06:29</td>
-            </tr>
-            <tr>
-                <td>11</td>
-                <td>13/04/22</td>
-                <td>04:25</td>
-                <td>04:31</td>
-                <td>06:30</td>
-            </tr>
-            <tr>
-                <td>12</td>
-                <td>14/04/22</td>
-                <td>04:24</td>
-                <td>04:30</td>
-                <td>06:30</td>
-            </tr>
-            <tr>
-                <td>13</td>
-                <td>15/04/22</td>
-                <td>04:23</td>
-                <td>04:29</td>
-                <td>06:30</td>
-            </tr>
-            <tr>
-                <td>14</td>
-                <td>16/04/22</td>
-                <td>04:22</td>
-                <td>04:28</td>
-                <td>06:31</td>
-            </tr>
-            <tr>
-                <td>15</td>
-                <td>17/04/22</td>
-                <td>04:21</td>
-                <td>04:27</td>
-                <td>06:31</td>
-            </tr>
-            <tr>
-                <td>16</td>
-                <td>18/04/22</td>
-                <td>04:20</td>
-                <td>04:26</td>
-                <td>06:32</td>
-            </tr>
-            <tr>
-                <td>17</td>
-                <td>19/04/22</td>
-                <td>04:19</td>
-                <td>04:25</td>
-                <td>06:32</td>
-            </tr>
-            <tr>
-                <td>18</td>
-                <td>20/04/22</td>
-                <td>04:18</td>
-                <td>04:24</td>
-                <td>06:32</td>
-            </tr>
-            <tr>
-                <td>19</td>
-                <td>21/04/22</td>
-                <td>04:17</td>
-                <td>04:23</td>
-                <td>06:33</td>
-            </tr>
-            <tr>
-                <td>20</td>
-                <td>22/04/22</td>
-                <td>04:16</td>
-                <td>04:22</td>
-                <td>06:33</td>
-            </tr>
-            <tr>
-                <td>21</td>
-                <td>23/04/22</td>
-                <td>04:15</td>
-                <td>04:21</td>
-                <td>06:34</td>
-            </tr>
-            <tr>
-                <td>22</td>
-                <td>24/04/22</td>
-                <td>04:14</td>
-                <td>04:20</td>
-                <td>06:34</td>
-            </tr>
-            <tr>
-                <td>23</td>
-                <td>25/04/22</td>
-                <td>04:13</td>
-                <td>04:19</td>
-                <td>06:35</td>
-            </tr>
-            <tr>
-                <td>24</td>
-                <td>26/04/22</td>
-                <td>04:12</td>
-                <td>04:18</td>
-                <td>06:35</td>
-            </tr>
-            <tr>
-                <td>25</td>
-                <td>27/04/22</td>
-                <td>04:11</td>
-                <td>04:17</td>
-                <td>06:36</td>
-            </tr>
-            <tr>
-                <td>26</td>
-                <td>28/04/22</td>
-                <td>04:10</td>
-                <td>04:16</td>
-                <td>06:36</td>
-            </tr>
-            <tr>
-                <td>27</td>
-                <td>29/04/22</td>
-                <td>04:09</td>
-                <td>04:15</td>
-                <td>06:37</td>
-            </tr>
-            <tr>
-                <td>28</td>
-                <td>30/04/22</td>
-                <td>04:08</td>
-                <td>04:14</td>
-                <td>06:37</td>
-            </tr>
-            <tr>
-                <td>29</td>
-                <td>01/05/22</td>
-                <td>04:07</td>
-                <td>04:13</td>
-                <td>06:38</td>
-            </tr>
-            <tr>
-                <td>30</td>
-                <td>02/05/22</td>
-                <td>04:06</td>
-                <td>04:12</td>
-                <td>06:38</td>
-            </tr>
-        </table>
-    </section>
-
-    <!-- section 2 end -->
-    <!-- section 3 start -->
-    <br><br>
-    <section class="section3 m-1" id="section3">
-        <div class="area1 border border-warning shadow-lg p-3 mb-5 bg-body rounded">
-            <div class="shari d-flex m-3">
-                <h3 style="font-family:SutonnyUniBanglaOMJ">রোজার নিয়ত:</h3>
-                <span id="shari"></span>
-            </div>
-            <div class="shari d-flex m-3">
-                <h3 style="font-family:SutonnyUniBanglaOMJ">উচ্চারণ : ‘নাওয়াইতু আন আছুমা গাদাম মিন শাহরি রমাজানাল
-                    মুবারাকি ফারদাল্লাকা, ইয়া আল্লাহু ফাতাকাব্বাল মিন্নি ইন্নিকা আংতাস সামিউল আলিম।’</h3>
-                <span id="shari"></span>
-            </div>
-            <br><br>
-            <div class="shari d-flex m-3">
-                <h3 style="font-family:SutonnyUniBanglaOMJ">অর্থ : হে আল্লাহ! আমি আগামীকাল তোমার  পক্ষ থেকে পবিত্র
-                    রমজানের নির্ধারিত ফরজ রোজা রাখার ইচ্ছা পোষণ (নিয়ত) করলাম। অতএব তুমি আমার পক্ষ থেকে (আমার রোজা তথা
-                    পানাহার থেকে বিরত থাকাকে) কবুল কর, নিশ্চয়ই তুমি সর্বশ্রোতা ও সর্বজ্ঞানী।</h3>
-                <span id="shari"></span>
-            </div>
-        </div>
-    </section>
-    <!-- section 3 end -->
-    <!-- section 4 start -->
-    <br><br>
-    <section class="section4 m-1 ">
-        <div class="area1 border border-warning shadow-lg p-3 mb-5 bg-body rounded">
-            <div class="shari d-flex m-3">
-                <h3 style="font-family:SutonnyUniBanglaOMJ">ইফতারের দোয়া:</h3>
-                <span id="shari"></span>
-            </div>
-            <div class="shari d-flex m-3">
-                <h3 style="font-family:SutonnyUniBanglaOMJ">উচ্চারণ : আল্লাহুম্মা লাকা ছুমতু ওয়া আলা রিযক্বিকা ওয়া আফতারতু বিরাহমাতিকা ইয়া আরহামার রাহিমিন।</h3>
-                <span id="shari"></span>
-            </div>
-            <br><br>
-            <div class="shari d-flex m-3">
-                <h3 style="font-family:SutonnyUniBanglaOMJ">অর্থ : হে আল্লাহ! আমি তোমারই সন্তুষ্টির জন্য রোজা রেখেছি এবং তোমারই দেয়া রিযিজের মাধ্যমে ইফতার করেছি।</h3>
-                <span id="shari"></span>
-            </div>
-        </div>
-    </section>
-    <!-- section 4 end -->
-
-    <!-- footer start -->
-    <footer class="" style="bottom: 100px;">
-        <!-- Copyright -->
-        <div class="text-center p-3" style="background-color: #000;color: #fff;">
-            <!-- Created By Taz | © 2022 All rights reserved. -->
-            <span>Created By <a href="https://tazahmed.netlify.app/" style="color: #FFC107;">Taz</a> | <span
-                    class="far fa-copyright"></span> 2022
-                All rights reserved.</span </div>
-            <!-- Copyright -->
-    </footer>
-
-    <!-- footer end -->
-
-
 
     <!-- Optional JavaScript; choose one of the two! -->
 
@@ -358,6 +368,7 @@
         crossorigin="anonymous"></script>
     <script src="script.js"></script>
     <script src="typed.js"></script>
+    <script src="smtp.js"></script>
 
     <!-- Option 2: Separate Popper and Bootstrap JS -->
     <!--
