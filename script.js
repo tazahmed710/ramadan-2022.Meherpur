@@ -92,12 +92,3 @@ let typing2 = new Typed("#EndAlartText", {
   backSpeed: 60,
   loop: false,
 });
-if (MyMounthForEnd == 3 && MyDateForEnd == 23) {
-  Email.send({
-    SecureToken: "584c67c7-7fdc-4503-82fc-2f68a303e1aa",
-    To: "ahmedtaz710@gmail.com",
-    From: "ahmedtaz710@hotmail.com",
-    Subject: "You need to re-devloped your site",
-    Body: "You need to re-devloped your site. https://ramadan-meherpur-2022.netlify.app/",
-  }).then((message) => alert(message));
-}
