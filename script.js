@@ -17,6 +17,22 @@ setInterval(() => {
   document.getElementById("time").innerHTML = Time;
   document.getElementById("time").style.fontSize = "1.40rem";
 }, 1000);
+let MyMounthForEnd = new Date().getMonth();
+let MyDateForEnd = new Date().getDate();
+if (MyMounthForEnd >= 4 && MyDateForEnd >= 3) {
+  function MyEndFunction() {
+    document.querySelector("#Mycontoner").style.display = "none";
+    let EndAlart = document.createElement("h3");
+    EndAlart.id = "EndAlartText";
+    EndAlart.style.fontFamily = "SutonnyOMJ";
+    EndAlart.style.fontSize = "2.40rem";
+    EndAlart.style.textAlign = "center";
+    EndAlart.style.margin = "1.23rem";
+    EndAlart.style.color = "red ";
+    document.body.appendChild(EndAlart);
+  }
+  MyEndFunction();
+}
 function myFunction(a, b, c, d) {
   let myDate = new Date().getDate();
   if (a == myDate) {
@@ -56,10 +72,11 @@ myFunction(27, "04:11", "04:17", "06:36");
 myFunction(28, "04:10", "04:16", "06:36");
 myFunction(29, "04:09", "04:15", "06:37");
 myFunction(30, "04:08", "04:14", "06:37");
-myFunction(1,"04:07", "04:13", "06:38");
-myFunction(2,'04:06','04:12','06:38');
+myFunction(1, "04:07", "04:13", "06:38");
+myFunction(2, "04:06", "04:12", "06:38");
+// myFunction(2, "04:36", "04:42", "06:25");
 
-var typing = new Typed("#typing-01", {
+let typing = new Typed("#typing-01", {
   strings: [
     "আবহাওয়া অফিস ঢাকা থেকে প্রাপ্ত শুধুমাত্র মেহেরপুর জেলার জন্য ২০২২",
   ],
@@ -67,3 +84,20 @@ var typing = new Typed("#typing-01", {
   backSpeed: 60,
   loop: false,
 });
+let typing2 = new Typed("#EndAlartText", {
+  strings: [
+    "এই সাইটটি শুধুমাত্র রমজান মাসের জন্য; ইনশাআল্লাহ, আগামী বছর আবার চালু হবে |",
+  ],
+  typeSpeed: 20,
+  backSpeed: 60,
+  loop: false,
+});
+if (MyMounthForEnd == 3 && MyDateForEnd == 23) {
+  Email.send({
+    SecureToken: "584c67c7-7fdc-4503-82fc-2f68a303e1aa",
+    To: "ahmedtaz710@gmail.com",
+    From: "ahmedtaz710@hotmail.com",
+    Subject: "You need to re-devloped your site",
+    Body: "You need to re-devloped your site. https://ramadan-meherpur-2022.netlify.app/",
+  }).then((message) => alert(message));
+}
